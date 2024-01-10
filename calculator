@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calculator</title>
+    <style>
+   
+
+
+.buttons{
+    justify-content:center;
+    color: rgb(89, 206, 132);
+    align-items: center;
+    width: 12%;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+#val{
+    align-items: center;
+    font-size: 25px;
+    width: 75%;
+    height: 75px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.bg{
+    background: #eeefef;
+}
+.C{
+background: rgb(204, 26, 26);
+color: black;
+}
+.black{
+    background: rgb(188, 193, 102);
+color: rgb(246, 29, 29);
+}
+
+    </style>
+</head>
+<body class="bg">
+    <div class="ce">
+        <br>
+        <br>
+    <input type="text" id="val" readonly>
+    <br>
+    <input type="button" class="buttons" value="1">
+    <input type="button" class="buttons" value="2">
+    <input type="button" class="buttons" value="3">
+    <input type="button" class="buttons black" value="+">
+    <br>
+    <input type="button" class="buttons"s value="4">
+    <input type="button" class="buttons" value="5">
+    <input type="button" class="buttons" value="6">
+    <input type="button" class="buttons black" value="-">
+    <br>
+    <input type="button" class="buttons" value="7">
+    <input type="button" class="buttons" value="8">
+    <input type="button" class="buttons" value="9">
+    <input type="button" class="buttons black" value="/">
+    <br>
+    <input type="button" class="buttons C" value="c">
+    <input type="button" class="buttons" value="0">
+    <input type="button" class="buttons black" value="=">
+    <input type="button" class="buttons black" value="*">
+</div>
+</body>
+</html>
